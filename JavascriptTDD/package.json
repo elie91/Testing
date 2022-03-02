@@ -1,0 +1,18 @@
+{
+  "name": "JavascriptTDD",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "jest --watchAll --verbose --coverage",
+    "e2e": "cypress open"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "cypress": "^9.5.1",
+    "vite": "^2.0.0-beta.12"
+  },
+  "dependencies": {
+    "jest": "^27.5.1"
+  }
+}
